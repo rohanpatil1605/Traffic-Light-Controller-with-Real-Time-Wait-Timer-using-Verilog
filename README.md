@@ -11,17 +11,6 @@ This Verilog-based **Traffic Light Controller** simulates a **real-world interse
 ✅ **Testbench (TB) Included**, validating state transitions in **ModelSim/Quartus**  
 ✅ **Modular Design** with separate modules for **FSM, Clock Divider, and Display Interface**  
 
-#### **📂 Project Structure**  
-```
-📦 Traffic-Light-Controller  
- ┣ 📜 Traffic_light.v         # Main Traffic Light Controller (FSM)  
- ┣ 📜 Clock_Divider.v         # Clock Divider (50 MHz → 1 Hz)  
- ┣ 📜 Traffic_Light_Top.v     # Top-level integration of FSM and Clock  
- ┣ 📜 Traffic_light_TB.v      # Testbench for Simulation  
- ┣ 📜 top.v                   # 7-segment display integration  
- ┣ 📜 bcd_to_7seg.v           # BCD to 7-segment decoder  
- ┣ 📜 README.md               # Project Documentation  
-```
 
 #### **🛠 Tools & Technologies Used**  
 - **Verilog** (FSM, Clock Divider, Traffic Controller)  
